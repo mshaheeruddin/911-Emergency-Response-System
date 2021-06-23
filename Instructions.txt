@@ -1,0 +1,39 @@
+Caller Dials 911
+----------------
+Operator: This is 911 emergency support system, Please report you emergency
+caller: A car accident happened. (statement)
+Operator: Okay, please provide your information:
+Name?
+Caller: Afzal
+Place Of Emergency:
+Caller: IBA Khi
+Phone:
+03013379587
+(if sitution is not identified then give options for emergency 1. Ambulance, 2. Police, 3. Fire Fighters)
+(Operator summarise the situation)
+Operator: "Mr./Ms. Afzal called from 03013379587 and reported an accident at IBA Khi"
+Operator: "We are sending you appropriate support. Please confirm that the ambulance is the required service?(yes/no)"
+Caller: yes
+Operator: "We have dispatch an ambulance for IBA khi, Please hold on. Help will be there in a moment."
+Operator: "Is there anything else you want to report?" (if yes then just ask for the statement NOT info again)
+Caller: 
+if yes -> ask for what is happend or what is demanded
+if No -> end the call.
+_____________________________________________________
+
+Caller dials Enhanced 911:
+-------------------------
+Operator: This is 911 emergency support system, Please report you emergency
+caller: A car accident happened.
+(Operator summarise the situation)
+Operator: "A car accident is being reported at IBA Khi, by 03013379587."
+Operator: "We are sending you appropriate. Please confirm that this is the ambulance is the required service?(yes/no)"
+everything is same as above.
+_____________________________________________________
+
+What Needs to be done:
+1. Emergency class extends two classes 911 and Enhanced-911. As mentioned E911 doesn't need to ask for caller information.
+(Use the concept of method overriding here)
+2. You need to identify the appropriate response unit to dispatch according to the statement provided by caller and then send an appropriate response unit.
+3. Show atleast one call of each type.
+
